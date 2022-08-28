@@ -5,6 +5,17 @@ body {
 :root {
     --dark-color: #19283f;
     --green-color:#38f99c;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+}
+
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    color: var(--yellow-color);
 }
 
  /* ######### Start Navbar Section ######### */
@@ -41,3 +52,12 @@ body {
 }
 
   /* ######### End Navbar Section #########  */
+
+  /* ######### Start Landing Page Section #########  */
+
+  .landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+  }
+  /* ######### End Landing Page Section #########  */
+
