@@ -5,8 +5,12 @@ body {
 :root {
     --dark-color: #19283f;
     --green-color:#38f99c;
+    --red-color: #ff3150;
 }
 
+.bg-btn {
+    background-color: var(--red-color);
+}
  /* ######### Start Navbar Section ######### */
 
 .navbar {
