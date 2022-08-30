@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -205,11 +206,10 @@ body {
   /* ######### End Subscribe ######### */
 
   /* ######### Start Footer ######### */
-
-
 .footer {
   background-color: var(--dark-color);
 }
+
 .footer .copyRight > span {
   color: var(--green-color);
 }
@@ -224,6 +224,7 @@ body {
   text-align: center;
   line-height: 25px;
 }
+
 .footer .facebook {
   background-color: #1877f2;
 }
@@ -231,6 +232,7 @@ body {
 .footer .twitter {
   background-color: #1da1f2;
 }
+
 .footer .linkedin {
   background-color: #0077b5;
 }
